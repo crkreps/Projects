@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-18"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v10.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/Sperk/Desktop/jars/dsn-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sperk/Desktop/jars/gimap-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sperk/Desktop/jars/imap-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sperk/Desktop/jars/javax.activation-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sperk/Desktop/jars/javax.mail-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sperk/Desktop/jars/javax.mail-api-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sperk/Desktop/jars/logging-mailhandler-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sperk/Desktop/jars/mailapi-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sperk/Desktop/jars/pop3-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sperk/Desktop/jars/smtp-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sperk/Desktop/javax.mail.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="styles.css"/>
+	</head>
+	<body>
+		<main id="main">
+			<h1 id="title"> Stephen Hawkings</h1>
+			<div id="img-div">
+				<img
+					id="image"
+					src="https://cdn.britannica.com/53/126653-050-8B554960/Stephen-W-Hawking-2007.jpg"
+					alt="Stephen Hawkings in his chair"
+				/>
+				<figcaption id="img-caption">
+					Stephen Hawkings in his chair
+				</figcaption>
+			</div>
+		
+		<section id="tribute-info">
+			<h3 id="paraTitle"> Brief timeline of Stephan Hawkings' Life</h3>
+			
+			<ul>
+				<li> Hawking was born on 8 January 1942 </li>
+				<li> obtained his PhD degree in applied mathematics and theoretical physics, specialising in general relativity and cosmology, in March 1966 </li>
+				<li> blah blah </li>
+				<li> blah blah </li>
+				<li> blah blah </li>
+				<li> blah blah </li>				
+			</ul>
+			
+			<h4> Here is additional information on Stephen Hawking via 
+				<a id="tribute-link" href="https://en.wikipedia.org/wiki/Stephen_Hawking" target="_blank">Wikipedia
+				</a>.
+			
+			</h4>
+		</section>
+		
+		
+		
+		
+		</main>
+	</body>
+</html>

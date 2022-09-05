@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta name="keywords" content="Planets, Space, Solar System"/>
+<meta name="description" content="Solar System"/>
+<meta name="author" content="Casey Kreps"/> 
+<meta charset="utf-8"/>
+<link rel="stylesheet"  type="text/css" href="sub/main.css"/>
+
+<title>Our Solar System-Feedback</title>
+
+</head>
+
+<body>
+
+
+
+
+<div id="wrapper">
+<!--HEADER-->
+<header>
+<a id="Top"></a>
+
+<h1>Our Solar System</h1>
+
+<nav>
+	
+<ul>
+	<li><a href="KrepsCaseyAssignment.html">Home</a></li>
+	<li class="dropdown">
+    <a href="Planets.html" class="dropbtn">Solar System</a>
+    <div class="dropdown-content">
+      <a href="Mars.html">Mars</a>
+      <a href="#">Mercury</a>
+      <a href="#">Venus</a>
+    </div>
+  </li>
+	<li><a href="Planetsquiz.html">Planets Quiz</a></li>  
+	<li><a href="feedback.html">Feedback</a></li>  
+</ul>
+</nav>
+
+</header>
+
+  <!--ARTICLE-->
+
+<article>
+
+<h2>Tell us how we did!</h2>
+
+<p class="ed"> Below is a form that will allow you to tell us how you like our site.</p>
+<form id="form1" action="http://ss1.ciwcertified.com/cgi-bin/process.pl" method="post">
+
+<fieldset> 
+
+  <legend><strong>Personal Information</strong></legend> 
+
+  <label id="name1">First Name:</label> 
+  <input autofocus id="name" name="fname" min="2" size="20" type="text" required/> 
+  <br/> 
+  <label id="name2">Last Name:</label> 
+  <input id="nametwo" name="lname" min="2" size="20" type="text" required/> 
+  <br/>  
+    
+  <label id="bday" for="dob">Date of Birth:</label><input type="date" id="dob" name="dob" required/><br/> 
+
+  <label id="phone" for="tel"> Phone Number: </label><input id="tel" name="tel" type="tel" placeholder="555-555-5555" required/><br />
+ 
+  <label id="countrylist" for="country">Country:</label>
+    <input id="country" list="countries" name="country" required/> 
+    <datalist id="countries"> 
+    <option value="North America"> 
+    <option value="South America"> 
+    <option value="Europe"> 
+    <option value="Asia"> 
+    <option value="Africa"> 
+    <option value="Australia"> 
+    <option value="Antarctica"> 
+    </datalist> <br/><br/>
+  
+</fieldset>
+  
+<fieldset> 
+ 
+  <legend><strong>Review</strong></legend>  
+  
+<label id="times">Number of times you visited the site:</label><input max="99" min="0" name="visits" type="number" />
+<br/>
+<br/>
+
+Rate the site: 0 <input max="10" min="0" name="rating" type="range" value="5" />10
+<br/><br/>
+  
+<label for="comments">Questions or Comments:</label> 
+<textarea id="comments" cols="30" name="comments" rows="3" placeholder="Enter text here..."></textarea><br/><br/>
+</fieldset>
+ 
+ <fieldset> 
+<legend><strong>Visit Again</strong></legend>
+<label id="email1" for="Email" >Enter Your E-mail:</label> 
+<input id="Email" name="Email" placeholder="something@something.com" size="40" type="email" pattern="^.+@.+$" required /> <br/>
+  
+<label id="pass1" for="password">Password:</label> 
+<input id="password" name="password" size="21" type="password" required /> <br/>
+</fieldset>
+
+<div class="buttons">
+<input id="button" name="submit" type="submit" value="Submit" />
+<input id="button2" name="reset" type="reset" value="Reset" />
+</div>
+
+</form>
+<p class="ed">Reponses may take up to 2-3 business days</p>
+
+
+</article>
+
+<!--FOOTER-->
+
+<footer>
+
+<hr/>
+
+<div style="text-align:center">
+
+<!--FOOTER NAV-->
+<nav>
+	
+<ul>
+	<li><a href="KrepsCaseyAssignment.html">Home</a></li>
+	<li class="dropdown">
+    <a href="Planets.html" class="dropbtn">Solar System</a>
+    <div class="dropdown-content">
+      <a href="Mars.html">Mars</a>
+      <a href="#">Mercury</a>
+      <a href="#">Venus</a>
+    </div>
+  </li>
+	<li><a href="Planetsquiz.html">Planets Quiz</a></li>  
+	<li><a href="feedback.html">Feedback</a></li>
+</ul>
+</nav>
+</div>
+
+<p>&copy; 2016 Casey Kreps</p>
+
+<div style="text-align:center">
+
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+<img style="border: 0; width: 88px; height: 31px;" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" /></a>
+
+</div>
+<a href="#Top"><p>Top</p></a>
+
+</footer>
+
+<!--
+This code validates to HTML5
+-->
+
+</div>
+</body>
+</html>

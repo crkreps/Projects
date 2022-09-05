@@ -1,0 +1,349 @@
+/* STYLE SHEET FOR KrepsCaseyAssignments */
+
+body              
+{ 
+font-family:arial, verdana, helvetica;  
+color: white;  
+font-size:14px;  
+background-image: url(backgroundgalaxy.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+} 
+
+
+
+#wrapper {
+	width: 100%;
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*Header*/
+
+header {
+	padding: 10px 10px 0px 10px;
+	width: 100%;
+}
+
+header h1{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+}
+
+header a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+header a:visited {
+	color: gray;
+	text-decoration: none;
+}
+/**NAV**/
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	background-image: url(twinkling.png), url(stars.png), url(blackness.png);
+	background-repeat: repeat, no-repeat;
+																/**animation**/
+	animation:move-twink-back 500s linear infinite;
+	border-radius: 15px;
+}
+
+@keyframes move-twink-back {
+    from {background-position:0 0, 0px 0px;}
+    to {background-position:-10000px 5000px, 0px 0px}
+}
+
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+color: white;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+        background-color: #333;
+	background-image: url(twinkling.png), url(stars.png), url(blackness.png);
+	background-repeat: repeat, no-repeat;
+																/**animation**/
+	animation:move-twink-back 500s linear infinite;
+   	border-radius: 5px;
+	 min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+	color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*Article*/
+
+article {
+	padding:5px 5px;
+	margin: 2px 0px;
+	width: 100%;
+	color: black;
+	border-radius: 25px;
+	background-color:  rgb(177, 177, 177);
+	background-color:  rgba(177, 177, 177, 0.8);
+	border-style: solid;
+	border-width: 1px;
+
+}
+
+.ed {
+	text-align: center;
+}
+
+/**article image**/
+.floatright {
+	   float: right;
+	   margin: 2px 2px 1px 5px;
+}
+
+.quizP {
+	text-align: center;
+}
+
+#answerBox {
+	margin: auto;
+	padding: 50px 0px 0px 0px;
+    width: 200px;
+    height: 120px;
+    border: 2px solid #aaaaaa;
+	text-align: center;
+}
+
+/**FORMS**/
+
+label {
+	margin: 10px 0px 1px 0px;
+	display: block;
+}
+
+input, textarea { 
+padding: 5px;
+width: 15%;
+
+}
+
+fieldset {
+	margin: 15px;
+	padding: 0px;
+	border: none;
+}
+
+legend {
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+#comments, #Email, #password {
+width: 20%;
+}
+
+.buttons {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+/**planets on the bottom of page88**/
+.planetsquiz {
+	padding: 0;
+	margin: 15px 0px 0px 80px;
+}
+
+/**image of planets on planets.html**/
+.imgcenter {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding-bottom: 20px;
+	max-width: 100%;
+	padding-top: .51%;
+}
+
+.tab { 
+	text-indent:40px
+}
+
+article h2{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+article p {
+	width: 60%; 
+	margin: 2% 20%; 
+	text-align: justify;
+
+}
+
+/* Mars Picture Pop Up*/
+
+#marsimg {
+	display: block;
+	width: 40%;
+	margin: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#marsimg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/*Footer*/
+footer {
+	width: auto;
+}
+
+footer nav{
+	width: auto;
+}
+
+footer ul {
+	
+	list-style: none;
+}
+
+footer ul li {
+	display: inline;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+footer a:visited {
+	color: gray;
+	text-decoration: none;
+}
+
+footer hr {
+	width: auto;
+	height: 3px;
+}
+
+footer p{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
